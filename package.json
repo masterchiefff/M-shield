@@ -1,0 +1,18 @@
+{
+  "name": "m-shield",
+  "version": "1.0.0",
+  "description": "M-shield is a user-controlled, fraud-proof security layer for banking and mobile money transactions, powered by Africa’s Talking SMS, USSD, Voice, and Payment APIs. It uses a double-lock system with voice and SMS verification, plus a community fraud blacklist, to stop scams in their tracks—no AI needed, just rock-solid rules and real-time action.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Anwar magara",
+  "license": "MIT",
+  "dependencies": {
+    "africastalking": "^0.7.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
